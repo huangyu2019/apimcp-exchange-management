@@ -1,0 +1,16 @@
+server:
+  port: 3000
+spring:
+  main:
+    bannerMode: off
+  ai:
+    mcp:
+      server:
+        enabled: true
+        name: mcpserver
+        version: 1.0.0
+        type: sync
+
+#        sseMessageEndpoint: /sse
+
+toolClassPath: com.yyy.mcp.tool
